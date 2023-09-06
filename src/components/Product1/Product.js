@@ -65,7 +65,7 @@ function Product() {
             qun={qun}
             pack="tin"
           />
-      < MessageDialog/>
+
 
         </section>
       </Container>
