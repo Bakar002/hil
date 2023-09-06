@@ -3,15 +3,15 @@ import './style.css'; // Include your CSS file for styling
 const cardsData = [
     {
       title: 'Card 1',
-      imageUrl: 'https://i.imgur.com/4s07TNA.jpg',
+      imageUrl: '/assets/1.png',
     },
     {
       title: 'Card 2',
-      imageUrl: 'https://i.imgur.com/FegU1ys.png',
+      imageUrl: '/assets/3.png',
     },
     {
       title: 'Card 3',
-      imageUrl: 'https://i.imgur.com/bHlEtuf.png',
+      imageUrl: '/assets/2.png',
     },
   ];
   
@@ -85,23 +85,29 @@ const Gallery = () => {
 
   return (
 <div
-      ref={cardContainerRef}
-      className={`mt-[50px] flex flex-row flex-wrap mx-auto min-h-[60vh] ${
-        scrollLock ? 'scroll-locked' : ''
-      }`}
+  ref={cardContainerRef}
+  className={`mt-[100px] container  flex flex-row flex-wrap mx-auto justify-center min-h-[60vh]  ${
+    scrollLock ? 'scroll-locked' : ''
+  }`}
+  style={{ gap: '10px' }} // Adjust the gap value as needed
+>
+  {cardsData.map((card, index) => (
+    <div
+      key={index}
+      className={`card ${activeCardIndex === index ? 'active' : ''}`}
+      style={{ margin: '0px' }} // Adjust the margin value as needed
     >
-      {cardsData.map((card, index) => (
-        <div
-          key={index}
-          className={`card ${activeCardIndex === index ? 'active' : ''}`}
-        >
-          <div className="bg-transparent overflow-hidden">
-            <img src={card.imageUrl} alt={card.title} className="w-[500px] h-[300px] object-contain" />
-           
-          </div>
-        </div>
-      ))}
+      <div className="container  overflow-hidden">
+        <img
+          src={card.imageUrl}
+          alt={card.title}
+          className="w-auto h-[50vh] object-contain"
+        />
+      </div>
     </div>
+  ))}
+</div>
+
 
   );
 };

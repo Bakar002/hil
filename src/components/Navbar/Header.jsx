@@ -19,13 +19,18 @@ const Header = () => {
       <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
    <div className="flex items-center">
+   <Link to={Links1[0].link} className='text-gray-800 hover:text-gray-400 duration-500  no-underline ' onClick={()=>{
+                scrollToTop();
+                setOpen(!open)
+               
+              }}>
   <span className="text-3xl text-indigo-600 mr-1 pt-2">
     <img
       src="/assets/logo.png"
       alt="Logo"
       className="h-12 w-auto object-contain"
     />
-  </span>
+  </span></Link>
  
 </div>
 
@@ -42,6 +47,7 @@ const Header = () => {
             <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 list-none'>
               <Link to={link.link} className='text-gray-800 hover:text-gray-400 duration-500  no-underline ' onClick={()=>{
                 scrollToTop();
+                setOpen(!open)
                 if(link.link !== "/"){
                   document.body.style.overflow = "auto";
                 }

@@ -65,7 +65,7 @@ export default function App() {
 
     
 
-<div className="container flex flex-wrap justify-center items-center mx-auto"style={{ backgroundColor: 'green' }}>
+<div className="container  h-auto flex flex-wrap justify-center items-center mx-auto"style={{ backgroundColor: 'green' }}>
 
      
        <div className=' '> <FlippingCard

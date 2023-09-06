@@ -1,7 +1,7 @@
 export const PRODUCTS = [
-  { name: "Drag And Drop", link: "#" },
-  { name: "Visual Studio X", link: "#" },
-  { name: "Easy Content", link: "#" },
+  { name: "Powdered Milk", link: "/productpage3" },
+  { name: "Condensed Milk", link: "/productpage2" },
+  { name: "Evaporated Milk", link: "/productpage1" },
 ];
 export const RESOURCES = [
   { name: "Industries and tools", link: "#" },
@@ -11,11 +11,11 @@ export const RESOURCES = [
   { name: "Nostrud exercitation", link: "#" },
 ];
 export const COMPANY = [
-  { name: "Home", link: "#" },
-  { name: "About us", link: "#" },
-  { name: "Contact", link: "#" },
-  { name: "Product Page", link: "#" },
-  { name: "Privacy Policy", link: "#" },
+  { name: "Home", link: "/" },
+  { name: "About us", link: "/Aboutus" },
+  { name: "Contact", link: "/contactus" },
+  { name: "Product Page", link: "/productpage" },
+
 ];
 export const SUPPORT = [
   { name: "P.O Box : 3309, Al Ras, Dubai, U.A.E", link: "#" },
