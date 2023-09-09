@@ -61,7 +61,7 @@ export default function App() {
     
     {/* <div className="  w-auto flex justify-center flex-wrap items-center space-y-[-200px] min-h-[1500px] sm:min-h-screen w-auto bg-transparent mx-auto slide-in space-y-[60px]" > */}
 
-    <div className="container  min-h-screen flex flex-wrap justify-center items-center mx-auto bg-gradient-to-br from-yellow-100 via-yellow-300 to-yellow-500" >
+    <div className="  min-h-screen flex flex-wrap justify-center items-center mx-auto bg-gradient-to-br from-yellow-100 via-yellow-300 to-yellow-500" >
 
     <Gallery/>
     </div>
