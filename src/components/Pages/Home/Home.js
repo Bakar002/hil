@@ -57,17 +57,18 @@ export default function App() {
 {/* 
     <Hero1></Hero1>  */}
    
-<Gallery/>
+
     
     {/* <div className="  w-auto flex justify-center flex-wrap items-center space-y-[-200px] min-h-[1500px] sm:min-h-screen w-auto bg-transparent mx-auto slide-in space-y-[60px]" > */}
 
+    <div className="container  min-h-screen flex flex-wrap justify-center items-center mx-auto bg-gradient-to-br from-yellow-100 via-yellow-300 to-yellow-500" >
 
+    <Gallery/>
+    </div>
 
-    
+    <div className="container  min-h-screen flex flex-wrap justify-center items-center mx-auto">
 
-<div className="container  h-auto flex flex-wrap justify-center items-center mx-auto"style={{ backgroundColor: 'green' }}>
-
-     
+     <div className="container h-auto flex flex-wrap justify-center items-center" style={{ backgroundColor: 'green' }}>
        <div className=' '> <FlippingCard
           key={cardsData[0].id}
           title={cardsData[0].title}
@@ -90,7 +91,7 @@ export default function App() {
           image={cardsData[2].image}
           path={cardsData[2].path}
         />
-</div>
+</div></div>
     {/* </div> */}
 <RevealOnScroll>
     <HeroSection myData={data}/></RevealOnScroll>
