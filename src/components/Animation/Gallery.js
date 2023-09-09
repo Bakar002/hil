@@ -18,12 +18,12 @@ const cardsData = [
   ];
   
   const Gallery = () => {
-    const [scrollLock, setScrollLock] = useState(false);
+    const [scrollLock, setScrollLock] = useState(true);
     const [activeCardIndex, setActiveCardIndex] = useState(1); // Initialize the active card index to 1
     const cardContainerRef = useRef(null);
   
-    const scrollThreshold = 10; // Adjust this value for scroll sensitivity
-    const scrollDelay = 2000; // Adjust this value for the delay between index changes (in milliseconds)
+    const scrollThreshold = 20; // Adjust this value for scroll sensitivity
+    const scrollDelay = 3000; // Adjust this value for the delay between index changes (in milliseconds)
     let isChangingIndex = false;
   
     useEffect(() => {
