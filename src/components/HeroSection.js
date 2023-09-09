@@ -7,7 +7,7 @@ import { faCow, faCheese,faCheck } from '@fortawesome/free-solid-svg-icons';
 
 const HeroSection= () => {
   return (
-    <section className="relative mt-[100px] min-h-screen">
+    <section className="relative  min-h-screen">
     <div className="absolute inset-0 bg-yellow-300"></div>
     <div className="relative container mx-auto py-12 px-4">
       <div className="flex flex-wrap items-center">

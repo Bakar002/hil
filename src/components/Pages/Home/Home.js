@@ -66,9 +66,9 @@ export default function App() {
     <Gallery/>
     </div>
 
-    <div className="container  min-h-screen flex flex-wrap justify-center items-center mx-auto">
+    <div className="  min-h-screen flex flex-wrap justify-center items-center mx-auto" style={{ backgroundColor: 'green' }}>
 
-     <div className="container h-auto flex flex-wrap justify-center items-center" style={{ backgroundColor: 'green' }}>
+     <div className="container h-auto flex flex-wrap justify-center items-center" >
        <div className=' '> <FlippingCard
           key={cardsData[0].id}
           title={cardsData[0].title}
