@@ -5,12 +5,12 @@ import { Container } from "@mui/material";
 import Gallery from "./Components/Gallery";
 import Description from "./Components/Description";
 import MobileGallery from "./Components/MobileGallery";
-import prod1 from "../Product/Pictures/c170.png" ;
-import prod2 from "../Product/Pictures/c390.png";
+import prod1 from "../Product/Pictures/c170.webp" ;
+import prod2 from "../Product/Pictures/c390.webp";
 
 
-import thumb1 from "../Product/Pictures/c170.png";
-import thumb2 from "../Product/Pictures/c390.png";
+import thumb1 from "../Product/Pictures/c170.webp";
+import thumb2 from "../Product/Pictures/c390.webp";
 
 
 const IMAGES = [prod1, prod2, ];
@@ -35,7 +35,7 @@ function Product() {
   const handleDataFromChild = (data) => {
     setDataFromChild(data);
     console.log(data)
-    if (data==="/static/media/c390.43b16a0da0ff6b4c01d9.png") {
+    if (data==="/static/media/c390.43b16a0da0ff6b4c01d9.webp") {
       setqun("390GM")
     }
     else{
@@ -45,10 +45,10 @@ function Product() {
   const handleDataFromChild1 = (data) => {
     setDataFromChild(data);
     console.log(data)
-    if (data==="/static/media/c390.43b16a0da0ff6b4c01d9.png") {
+    if (data==="/static/media/c390.43b16a0da0ff6b4c01d9.webp") {
       setqun("390GM")
     }
-    else if(data==="/static/media/c170.43b16a0da0ff6b4c01d9.png"){
+    else if(data==="/static/media/c170.43b16a0da0ff6b4c01d9.webp"){
       setqun("170GM")
     }
   };

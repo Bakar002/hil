@@ -1,6 +1,6 @@
 import { IconButton } from "@mui/material";
 import React from "react";
-import thumb1 from "../Pictures/image-product-1-thumbnail.jpg";
+import thumb1 from "../Pictures/image-product-1-thumbnail.webp";
 import deleteIcon from "../Pictures/icon-delete.svg";
 
 const PRICE = 125;

@@ -26,7 +26,7 @@ const Header = () => {
               }}>
   <span className="text-3xl text-indigo-600 mr-1 pt-2">
     <img
-      src="/assets/logo.png"
+      src="/assets/logo.webp"
       alt="Logo"
       className="h-[70px] w-auto object-contain"
     />

@@ -52,7 +52,7 @@ function Hero1() {
           
         </div>
         <div class=" hidden  lg:mt-0 lg:col-span-6 lg:flex">
-            <img src="/assets/pack.png" alt="mockup"/>
+            <img src="/assets/pack.webp" alt="mockup"/>
         </div>                
     </div>
 </section>

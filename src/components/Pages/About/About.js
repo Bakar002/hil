@@ -10,7 +10,7 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-6 gap-4">
               {/* Left Column (Image) */}
               <div className="container flex flex-row flex-wrap object-contain w-2 h-2">
-                <img src="/assets/logo.png" alt="/" className=" object-contain w-[100px] h-[100px]" />
+                <img src="/assets/logo.webp" alt="/" className=" object-contain w-[100px] h-[100px]" />
               </div>
 
               {/* Middle Column */}

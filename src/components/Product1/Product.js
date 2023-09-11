@@ -5,11 +5,11 @@ import { Container } from "@mui/material";
 import Gallery from "./Components/Gallery";
 import Description from "./Components/Description";
 import MobileGallery from "./Components/MobileGallery";
-import prod1 from "../Product1/Pictures/t390.png" ;
+import prod1 from "../Product1/Pictures/t390.webp" ;
 import { MessageDialog } from "../Modal/MessageDialog";
 
 
-import thumb1 from "../Product1/Pictures/t390.png";
+import thumb1 from "../Product1/Pictures/t390.webp";
 
 
 
@@ -35,7 +35,7 @@ function Product() {
   const handleDataFromChild = (data) => {
     setDataFromChild(data);
     console.log(data)
-    if (data==="/static/media/c390.43b16a0da0ff6b4c01d9.png") {
+    if (data==="/static/media/c390.43b16a0da0ff6b4c01d9.webp") {
       setqun("170GM")
     }
     else{
@@ -45,7 +45,7 @@ function Product() {
   const handleDataFromChild1 = (data) => {
     setDataFromChild(data);
     console.log(data)
-    if (data==="/static/media/c390.43b16a0da0ff6b4c01d9.png") {
+    if (data==="/static/media/c390.43b16a0da0ff6b4c01d9.webp") {
       setqun("170GM")
     }
     else{

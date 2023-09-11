@@ -3,16 +3,16 @@ import './style.css'; // Include your CSS file for styling
 const cardsData = [
     {
       title: 'Card 1',
-      imageUrl: '/assets/3.png',
+      imageUrl: '/assets/3.webp',
     },
     {
       title: 'Card 2',
-      imageUrl: '/assets/1.png',
+      imageUrl: '/assets/1.webp',
       
     },
     {
       title: 'Card 3',
-      imageUrl: '/assets/2.png',
+      imageUrl: '/assets/2.webp',
       
     },
   ];

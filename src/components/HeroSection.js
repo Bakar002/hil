@@ -14,7 +14,7 @@ const HeroSection= () => {
         <div className="w-full md:w-1/2 relative">
           <div className="relative z-10  p-4 shadow-md rounded-lg"style={{  backgroundColor: 'transparent', boxShadow: 'none', border: 'none'}}>
             <img
-              src="/assets/bann.png"
+              src="/assets/bann.webp"
               alt="Product Image"
               className="max-w-full h-auto mx-auto md:ml-0 md:mr-auto"
             />

@@ -19,21 +19,21 @@ const cardsData = [
     id: 3,
     title: 'Milk Powder',
     detail: 'Experience pure Nutrition with Hilwa, our  milk powder crafted from the lush farms of New Zealand. Taste the richness of our carefully sourced ingredients, as they blend harmoniously to create a truly captivating flavour.    ',
-    image: '/assets/Flipping Card 1.png', // Replace with your actual image URL
+    image: '/assets/Flipping Card 1.webp', // Replace with your actual image URL
     path:'/productpage3'
   },
   {
       id: 2,
       title: 'Condensed Milk',
       detail: 'Experience the magic of Hilwa condensed milk as it adds a luscious, velvety finish to your culinary creations. From creamy pies to delicious beverages, our brand elevates every dish with its smooth texture and irresistible sweetness.    ',
-      image: '/assets/Flipping Card 2.png', // Replace with your actual image URL
+      image: '/assets/Flipping Card 2.webp', // Replace with your actual image URL
       path:'/productpage2'
     },
   {
       id: 1,
       title: 'Evaporated Milk',
       detail: 'Experience the richness of Hilwa evaporated milk, lovingly made from the finest dairy in New Zealand. Unlock a world of culinary possibilities as our brand brings a creamy, dreamy element to your favorite dishes and beverages.',
-      image: '/assets/flipping card 3.png', // Replace with your actual image URL
+      image: '/assets/flipping card 3.webp', // Replace with your actual image URL
       path:'/productpage1'
     },
 

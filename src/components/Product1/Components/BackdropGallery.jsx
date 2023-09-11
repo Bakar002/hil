@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Backdrop, IconButton } from "@mui/material";
 
-import prod1 from "../Pictures/c170.png" ;
-import prod2 from "../Pictures/c390.png";
+import prod1 from "../Pictures/c170.webp" ;
+import prod2 from "../Pictures/c390.webp";
 
 
-import thumb1 from "../Pictures/c170.png";
-import thumb2 from "../Pictures/c390.png";
+import thumb1 from "../Pictures/c170.webp";
+import thumb2 from "../Pictures/c390.webp";
 
 import CloseIcon from "./Icons/CloseIcon";
 import PreviousIcon from "./Icons/PreviousIcon";

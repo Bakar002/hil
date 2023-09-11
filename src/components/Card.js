@@ -21,7 +21,7 @@ function Card() {
         config: { mass: 2, }
     })
     return (
-        <div className="container flex flex-col Card mx-auto mt-6 " style={{ backgroundImage: 'url(/assets/bg.jpg)',}}>
+        <div className="container flex flex-col Card mx-auto mt-6 " style={{ backgroundImage: 'url(/assets/bg.webp)',}}>
             <div className="Card-left">
                
             </div>
