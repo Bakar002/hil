@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import { Link } from 'react-router-dom';
-import "./FlippingCard.css"
+import "./FlippingCard.css";
 
 function FlippingCard({ title, detail, image, path }) {
   const ref = useRef();
@@ -15,7 +15,7 @@ function FlippingCard({ title, detail, image, path }) {
         ref={ref}
         style={{
           width: '100%', // Use the full width of the container
-          height: '70vh', // Set the height to 70vh
+          height: '50vh', // Set the height to 70vh
           borderRadius: '10px',
           border: 'none',
           display: 'flex', // Use flex to center content vertically
@@ -42,13 +42,13 @@ function FlippingCard({ title, detail, image, path }) {
         </FrontSide>
         <BackSide style={{
   backgroundColor: 'white',
-  borderRadius: '4px',
+  borderRadius: '20px',
   flex: 1, // Take up all available space vertically
   display: 'flex', // Use flex to center content vertically
   flexDirection: 'column', // Stack content vertically
   justifyContent: 'center', // Center content vertically
   alignItems: 'center', // Center content horizontally
-  padding: '20px', // Add padding for spacing
+  padding: '10px', // Add padding for spacing
 }}>
   <div className="text-black text-center">
     <h3 className="text-2xl font-semibold">{title}</h3>
