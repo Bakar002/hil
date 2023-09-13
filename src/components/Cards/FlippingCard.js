@@ -15,7 +15,7 @@ function FlippingCard({ title, detail, image, path }) {
         ref={ref}
         style={{
           width: '100%', // Use the full width of the container
-          height: '50vh', // Set the height to 70vh
+          height: '60vh', // Set the height to 70vh
           borderRadius: '10px',
           border: 'none',
           display: 'flex', // Use flex to center content vertically
