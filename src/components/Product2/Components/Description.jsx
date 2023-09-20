@@ -23,18 +23,7 @@ Our milk powder is a powerhouse of essential nutrients vital for a balanced heal
         </div>
 
       </div>
-      <div className="buttons">
-
-        <button
-          className="add-to-cart"
-          onClick={() => {
-            onSetOrderedQuant(onQuant);
-          }}
-        >
-          {/* <CartIcon /> */}
-       Be the first to review
-        </button>
-      </div>
+     
     </section>
   );
 };

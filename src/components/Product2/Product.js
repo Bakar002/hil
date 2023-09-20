@@ -52,39 +52,39 @@ function Product() {
   const handleDataFromChild1 = (data) => {
     setDataFromChild(data);
     console.log(data)
-    if (data==="/static/media/B25.a6225db397d7ce6730bf.webp") {
+    if (data==="/static/media/B25.e5b92ec0324ed62514ec.webp") {
       setqun("25kg")
       setpack("bag")
     }
-    else if(data==="/static/media/p2.25.e1065ef4e8e6e5bf4f8e.webp"){
+    else if(data==="/static/media/p2.25.b9192ff42f0de1394370.webp"){
       setqun("2.25kg")
       setpack("pouch")
     }
-    else if(data==="/static/media/p250.2fa69a3d384695abef6e.webp"){
+    else if(data==="/static/media/p250.96c954f6715f16bea0a2.webp"){
       setqun("250GM")
       setpack("pouch")
     }
-    else if(data==="/static/media/p400.099223f244380660e57b.webp"){
+    else if(data==="/static/media/p400.23ab027b975aff83337d.webp"){
       setqun("400GM")
       setpack("pouch")
     }
-    else if(data==="/static/media/p900.b09fc495bb31c23d139e.webp"){
+    else if(data==="/static/media/p900.682b24640cc44c32b3e8.webp"){
       setqun("900GM")
       setpack("pouch")
     }
-    else if(data==="/static/media/1.8T.630f44e24bf8b9c1e1e1.webp"){
+    else if(data==="/static/media/1.8T.1e3b35a36622d43589f9.webp"){
       setqun("1.8Kg")
       setpack("tin")
     }
-    else if(data==="/static/media/2.5T.11b99a7a2314e93e2421.webp"){
+    else if(data==="/static/media/2.5T.9052817bf5744d898c13.webp"){
       setqun("2.5KG")
       setpack("tin")
     }
-    else if(data==="/static/media/400T.4f551714b3dee95759d5.webp"){
+    else if(data==="/static/media/400T.c07bde561d7da44ce5d8.webp"){
       setqun("400GM")
       setpack("tin")
     }
-    else if(data==="/static/media/900T.8ed6b3a750ac4711cd6b.webp"){
+    else if(data==="/static/media/900T.7bf249ea6cadd0ace93b.webp"){
       setqun("900GM")
       setpack("tin")
     }
@@ -93,39 +93,39 @@ function Product() {
   const handleDataFromChild = (data) => {
     setDataFromChild(data);
     console.log(data)
-    if (data==="/static/media/B25.a6225db397d7ce6730bf.webp") {
+    if (data==="/static/media/B25.e5b92ec0324ed62514ec.webp") {
       setqun("25kg")
       setpack("bag")
     }
-    else if(data==="/static/media/p2.25.e1065ef4e8e6e5bf4f8e.webp"){
+    else if(data==="/static/media/p2.25.b9192ff42f0de1394370.webp"){
       setqun("2.25kg")
       setpack("pouch")
     }
-    else if(data==="/static/media/p250.2fa69a3d384695abef6e.webp"){
+    else if(data==="/static/media/p250.96c954f6715f16bea0a2.webp"){
       setqun("250GM")
       setpack("pouch")
     }
-    else if(data==="/static/media/p400.099223f244380660e57b.webp"){
+    else if(data==="/static/media/p400.23ab027b975aff83337d.webp"){
       setqun("400GM")
       setpack("pouch")
     }
-    else if(data==="/static/media/p900.b09fc495bb31c23d139e.webp"){
+    else if(data==="/static/media/p900.682b24640cc44c32b3e8.webp"){
       setqun("900GM")
       setpack("pouch")
     }
-    else if(data==="/static/media/1.8T.630f44e24bf8b9c1e1e1.webp"){
+    else if(data==="/static/media/1.8T.1e3b35a36622d43589f9.webp"){
       setqun("1.8Kg")
       setpack("tin")
     }
-    else if(data==="/static/media/2.5T.11b99a7a2314e93e2421.webp"){
+    else if(data==="/static/media/2.5T.9052817bf5744d898c13.webp"){
       setqun("2.5KG")
       setpack("tin")
     }
-    else if(data==="/static/media/400T.4f551714b3dee95759d5.webp"){
+    else if(data==="/static/media/400T.c07bde561d7da44ce5d8.webp"){
       setqun("400GM")
       setpack("tin")
     }
-    else if(data==="/static/media/900T.8ed6b3a750ac4711cd6b.webp"){
+    else if(data==="/static/media/900T.7bf249ea6cadd0ace93b.webp"){
       setqun("900GM")
       setpack("tin")
     }

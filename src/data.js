@@ -11,10 +11,7 @@ export default [
         question: ' Is Hilwa milk powder suitable for all ages?',
         answer: "Yes, Hilwa milk powder is suitable for all ages, from infants to adults. It is a versatile product that can be used as a daily dairy supplement or as a convenient option when fresh milk is not readily available. However, for specific recommendations regarding infant formula, it's always advisable to consult with a pediatrician.",
     },
-    {
-        question: 'Can I cancel my subscription?',
-        answer: 'Yes! Send us a message and we’ll process your request no questions asked.',
-    },
+   
     {
         question: 'Does Hilwa milk powder contain any additives or preservatives?',
         answer: 'No, Hilwa milk powder is free from additives and preservatives. We believe in providing a pure and natural product, and therefore, our milk powder does not contain any artificial colors, flavors, or preservatives. It is a wholesome dairy product that retains the essential nutrients naturally present in milk.',

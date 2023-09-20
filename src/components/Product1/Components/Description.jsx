@@ -25,19 +25,7 @@ At the heart of our condensed milk is the belief that food has the power to crea
         </div>
 
       </div>
-      <div className="buttons">
-
-        <button
-          className="add-to-cart"
-          onClick={() => {
-            onSetOrderedQuant(onQuant);
-          }}
-        >
-          {/* <CartIcon /> */}
-       Be the first to review
-        </button>
-      
-      </div>
+  
     </section>
 
   );

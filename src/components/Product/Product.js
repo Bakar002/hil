@@ -35,7 +35,7 @@ function Product() {
   const handleDataFromChild = (data) => {
     setDataFromChild(data);
     console.log(data)
-    if (data==="/static/media/c390.43b16a0da0ff6b4c01d9.webp") {
+    if (data==="/static/media/c390.adb5a7bfe7338ba2f8e8.webp") {
       setqun("390GM")
     }
     else{
@@ -45,10 +45,10 @@ function Product() {
   const handleDataFromChild1 = (data) => {
     setDataFromChild(data);
     console.log(data)
-    if (data==="/static/media/c390.43b16a0da0ff6b4c01d9.webp") {
+    if (data==="/static/media/c390.43b16a0da0ff6b4c01d9.png") {
       setqun("390GM")
     }
-    else if(data==="/static/media/c170.43b16a0da0ff6b4c01d9.webp"){
+    else if(data==="/static/media/c170.43b16a0da0ff6b4c01d9.png"){
       setqun("170GM")
     }
   };

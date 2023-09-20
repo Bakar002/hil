@@ -16,7 +16,7 @@ const Footer = () => {
   <img
     src="/assets/logo.webp"
     alt="Logo"
-    className="h-12 w-auto object-contain"
+    className="h-[80px] w-auto object-contain"
   />
 </span>
         </h1>
