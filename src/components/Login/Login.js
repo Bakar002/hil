@@ -65,7 +65,7 @@ export default function Login() {
       <div className="flex flex-col justify-center px-6 py-12 mx-auto w-2/3 md: w-full mx-auto lg:px-8 lg:w-1/2">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
-            className="mx-auto h-10 w-auto"
+            className=" flex flex-col justify-center mx-auto h-[50px] w-auto"
             src="/assets/logo.webp"
             alt="Your Company"
           />
