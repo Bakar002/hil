@@ -22,7 +22,7 @@ const HeroSection= () => {
         </div>
         <div className="w-full md:w-1/2 mt-8 md:mt-0">
         <div className="mx-auto mt-2">
-  <ul className="space-y-8 ml-3">
+  <ul className="space-y-1 ml-3">
     <li className="flex items-center">
       <FontAwesomeIcon icon={faCheck} className="text-green-500 mr-4" />
       <h1 className="ml-4 font-bold">Pure and Natural:</h1>

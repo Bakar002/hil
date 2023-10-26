@@ -25,7 +25,7 @@ export const SUPPORT = [
 ];
 
 export const Icons = [
-  { name: "logo-facebook", link: "https://www.facebook.com/hilwamilkpowder/" },
-  { name: "logo-youtube", link: "https://www.youtube.com/@hilwamilk" },
+  { name: "logo-facebook", link: "https://www.facebook.com/hilwamilkpowder/",color:'blue' },
+  { name: "logo-youtube", link: "https://www.youtube.com/@hilwamilk",color:'red' },
 
 ];
